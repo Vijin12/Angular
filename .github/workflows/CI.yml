@@ -1,4 +1,4 @@
-name: Angular Demo
+name: GitHub Pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
     - main
 
 jobs:
-  deploy:
+  Enviornment:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -19,9 +19,6 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-
-    - name: Run tests
-      run: npm run test:headless
-
+      
     - name: Build
       run: npm run build:prod
