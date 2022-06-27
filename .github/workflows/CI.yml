@@ -26,8 +26,6 @@ jobs:
     - name: Build
       run: ng build  
 
-    - uses: actions/checkout@v2
-
     - uses: actions/download-artifact@v3
       with:
         name: my-artifact
