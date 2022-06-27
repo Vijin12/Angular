@@ -29,7 +29,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: my-artifact
-        path: path/to/artifact/ # or path/to/artifact
+        path: /dist
 
     - uses: actions/download-artifact@v3
       with:
