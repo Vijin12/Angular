@@ -32,5 +32,5 @@ jobs:
       with:
         name: my-artifact
 
-    - name: Display structure of downloaded files
+    - name: Display structure of downloaded files is
       run: ls -R
