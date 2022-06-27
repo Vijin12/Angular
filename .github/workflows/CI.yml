@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Continous integartion for Angular application
 
 on:
   push:
